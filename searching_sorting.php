@@ -116,7 +116,7 @@ function merge_sort($array){
         return $array;
     }
     
-    $mid = (int)(count($array) / 2);
+    $mid = floor(count($array) / 2);
     $left = array_slice($array, 0, $mid);
     $right = array_slice($array, $mid);
     $left = merge_sort($left);
