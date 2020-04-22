@@ -23,7 +23,7 @@ function linear_search($array, $key)
 }
 
 /**
- * Performs a binary search on the given array, searching for the given key
+ * Performs a binary search on the given array, searching for the given key, assuming the array is already sorted
  * Worst case running time O(log2(N))
  * @param $array the array to be searched
  * @param $key the element being searched for
